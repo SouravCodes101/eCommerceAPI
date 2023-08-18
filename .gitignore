@@ -1,0 +1,46 @@
+# Node.js related
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Output of 'npm run build'
+build/
+
+# OSX
+.DS_Store
+
+# MongoDB data directory
+/data/db
+
+# Ignore generated documentation
+/docs/
+
+# Ignore test coverage results
+/coverage/
+
+# Ignore generated runtime data
+/run/
+
+# Ignore compiled binary addons
+/build/Release
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store

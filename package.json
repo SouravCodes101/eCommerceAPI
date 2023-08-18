@@ -1,0 +1,20 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "description": "eCommerce RestAPI build using NodeJS by Sourav Choudhury",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Sourav Choudhury",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
