@@ -1,5 +1,6 @@
 import path from 'path';
 import express from 'express';
+import swaggerConfig from './swagger.js';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 dotenv.config();
@@ -14,6 +15,8 @@ const port = process.env.PORT || 5000;
 connectDB(); //Connect to MongoDB
 
 const app = express();
+
+swaggerConfig(app);
 
 //Body parser middleware
 app.use(express.json());
@@ -37,7 +40,6 @@ app.get('/api/config/paypal', (req, res) =>
 
 const __dirname = path.resolve(); //Set __dirname to current directory
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
-
 
 app.use(notFound);
 app.use(errorHandler);
