@@ -67,7 +67,7 @@ This is an eCommerce REST API built with Node.js, Express.js, and MongoDB. It pr
 
 If you have any questions or need assistance with this project, please feel free to contact us:
 
-- **Email**:saurabc987l@gmail.com
+- **Email**:saurabc987@gmail.com
 - **GitHub**: https://github.com/SouravCodes101
 
 We welcome your feedback and contributions!
