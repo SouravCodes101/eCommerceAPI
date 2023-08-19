@@ -1,6 +1,6 @@
-# My Project
+# eCommerce API
 
-Welcome to my project! This is a brief overview of what my project is about.
+Welcome to my project, it is a backend API for an eCommerce app ! This is a brief overview of what my project is about.
 
 ## Getting Started
 
