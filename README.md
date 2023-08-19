@@ -63,12 +63,11 @@ This is an eCommerce REST API built with Node.js, Express.js, and MongoDB. It pr
 3. Create a `.env` file in the project root with your configuration options (see [Configuration](#configuration)).
 4. Start the server using `npm start`.
 
-## Configuration
+## Contact
 
-Create a `.env` file in the project root with the following configuration options:
+If you have any questions or need assistance with this project, please feel free to contact us:
 
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost/your-database-name
-JWT_SECRET=your-secret-key
-PAYPAL_CLIENT_ID=your-paypal-client-id
+- **Email**:saurabc987l@gmail.com
+- **GitHub**: https://github.com/SouravCodes101
+
+We welcome your feedback and contributions!
