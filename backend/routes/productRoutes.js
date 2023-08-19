@@ -10,15 +10,7 @@ import {
   getTopProducts,
 } from '../controllers/productController.js';
 import { protect, admin } from '../middleware/authMiddleware.js';
-/**
- * @swagger
- * /api/products:
- *   get:
- *     summary: Get a list of all products
- *     responses:
- *       '200':
- *         description: A list of products
- */
+
 router.route('/').get(getProducts).post(protect, admin, createProduct);
 router.get('/top', getTopProducts);
 router

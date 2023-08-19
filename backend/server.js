@@ -1,6 +1,5 @@
 import path from 'path';
 import express from 'express';
-import swaggerConfig from './swagger.js';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 dotenv.config();
@@ -15,8 +14,6 @@ const port = process.env.PORT || 5000;
 connectDB(); //Connect to MongoDB
 
 const app = express();
-
-swaggerConfig(app);
 
 //Body parser middleware
 app.use(express.json());
